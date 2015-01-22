@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>comcast</title>
+		<link href="new_file.css" rel="stylesheet" type="text/css" media="all"/>
+		</head>
+
+	<body>
+	<div class="left">
+		<p class="balancedue">Balance due by January 10, 2015</p>
+		<div class="left1">
+			<h1 class="pay">$29.99</h1>
+			<p class="details">View bill details</p>
+			</div>
+			<div class="left2">
+				<button>Pay now</button>
+				<p class="automatic">Set up automatic payments</p>
+			</div>
+				
+				
+				
+				
+				<!--
+				<div class="leftbottom1">
+					<p>Recent activity</p>
+					</div>
+		   <div class="leftbottom2">
+		   	<ul>
+		   		<li>
+			<p>11/30/2015</p>
+			<p>Thank you for your recent payment</p>
+		</div>-->
+		</div>

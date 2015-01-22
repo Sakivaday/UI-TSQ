@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>NavTest</title>
+		
+        
+        <link href ="navstyle.css"  rel="stylesheet" type="text/css" media="all"/>
+	</head>
+
+	<body>
+		<div class="side-nav">
+            <ul>
+            	
+                <li><a href="#">Global Styles</a></li>
+                
+                
+            <li><a href="#">Grid System</a></li>
+            
+            <li><a href="#">Fluid Grid System</a></li>
+            
+            <li><a href="#">Layouts</a></li>
+            
+            <li><a href="#">Responsive Design</a></li>
+            </ul>
+        </div>
+	</body>
+</html>

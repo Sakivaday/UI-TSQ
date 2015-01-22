@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>comcast</title>
+		<link href="new_file.css" rel="stylesheet" type="text/css" media="all"/>
+		</head>
+
+	<body>
+	<div class="left">
+        <p class="balancedue">Balance due by January 10, 2015</p>
+        <div class="border">
+		<div class="left1">
+			<h1 class="pay">$29.99</h1>
+			<a href ="#">View bill details</a>
+			</div>
+			<div class="left2">
+				<button>Pay now</button>
+				<a href="#">Set up automatic payments</a>
+			</div></div>
+				
+				<div class="leftbottom1">
+					<p class="recent">Recent Activity</p>
+					</div>	
+			
+		   <div class="leftbottom2">
+		   	<ul>
+		   		<li>
+			<p class="date">11/30/2014</p>
+			<p class="txt">Thank you for your recent payment</p>
+		<li>
+			<p class="date">11/30/2014</p>
+			<p class="txt">Online bill payment confirmation</p>
+		</li>
+		<li>
+			<p class="date">11/23/2014</p>
+			<p class="txt">Your bill is ready.</p>
+		</li>
+		</ul>
+		</div>
+		</div>
+		
+
+<div class="right">
+	<div class="box">
+		<div class="right1">
+			<div class="tickmark"><h2 class="connected">CONNECTED</h2></div>
+			<a href="#">view</a>
+		</div>
+		<div class="rightbottom1">
+			<h2>XFINITY<sup>&reg;</sup>Internet</h2>	
+			<a href="#">Upgrade</a>|<a href="#">Get help</a>	
+		</div>
+		<div class="rightbottom2">
+					
+					
+				
+			
+		</div>
+		
+		
+	</div>
+	</div>

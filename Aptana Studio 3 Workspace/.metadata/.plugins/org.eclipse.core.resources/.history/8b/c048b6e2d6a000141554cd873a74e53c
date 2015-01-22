@@ -1,0 +1,190 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "Arial";
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	background-color: #efefef;
+}
+.left{
+	float:left;
+	background-color: white;
+	margin-top:10px;
+	margin-left: 30px;
+	box-shadow: 2px 2px 2px #cacaca;
+	width: 400px;
+	border-radius: 5px;
+}
+.balancedue{
+	color: #989896;
+	text-align: center;
+	padding-top: 10px;
+}
+.left1{
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+	width: 45%;
+	
+}
+.left2{
+	float: left;
+	margin-left: 180px;
+	margin-top: -73px;
+    width: 45%;
+}
+.pay{
+	font-size: 40px;
+	padding-bottom: 5px;
+}
+.left .border .left1 a{
+	font-size: 13px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+button{
+	background-color: #fece00;
+	width: 200px;
+	height: 50px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.left2 a{
+	font-size: 13px;
+	padding-top: 5px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.border{
+	padding-bottom:20px;
+	margin-bottom: 20px;
+	
+}
+.leftbottom1{
+    border-bottom: 1px dashed #989896;
+    clear: both;
+    border-top: 1px solid #989896;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #989896;
+}
+.recent{
+	color: #70706e;
+	font-weight: bold;
+}
+.date{
+	font-family: "italic";
+	font-size: 12px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.leftbottom2 ul li a{
+	font-size: 13px;
+	border-bottom: 1px solid #989896;
+	margin-left: 20px;
+	padding-bottom: 8px;
+	display: inherit;
+}
+.right{
+	float:left;
+	background-color: white;
+	margin-top:10px;
+	margin-left: 30px;
+	width: 450px;
+}
+.box{
+	border: 1px solid #989896;
+	background-color: white;
+	margin-top:20px;
+	margin-left: 32px;
+	box-shadow: 2px 2px 2px #cacaca;
+	width: 400px;
+	height: 340px;
+	border-radius: 3px;
+}
+.tickmark{
+	background: url('pictures/sprite.png') no-repeat;
+	width:32px;
+	height:32px;	
+	background-position: -116px -1227px;
+	margin:5px;
+	float: left;
+}
+.connected{
+	margin-left: 40px;
+	margin-top: 3px;
+	color: #a2c513;
+	font-weight:300;
+	font-size: 19px;
+}
+.right .box .right1 a {
+	float: left;
+	margin-left: 300px;
+	margin-top: 10px;
+}
+.right .box .right1{
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #989896;
+	display: flex;
+}
+.rightbottom1 h2{
+	margin-left: 25px;
+	font-weight:300;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.rightbottom1 a{
+	margin-left: 20px;
+	font-size: 13px;
+}
+.rightbottom1{
+	border-bottom: 1px dashed #989896;
+	padding-bottom: 20px;
+}
+.rightbottom2 ul li a{
+	margin-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	font-size: 14px;
+	display: inherit;
+	border-bottom: 1px dashed #989896;
+}
+.bottom{
+	background-color: white;
+	height: 250px;
+	width: 980px;
+	float: left;
+	margin-top: 12px;
+}
+.rectbox{
+	height: 80px;
+	width: 930px; 
+	margin-top: 15px;
+	margin-left: 15px;
+	background-color: #efefef;
+}
+.bottom .rectbox .tickmarkbox{
+	background: url('pictures/sprite.png') no-repeat;
+	width:119px;
+	height:108px;	
+	background-position: -49px 0px;
+	float: left;
+	margin-top: 26px;
+	padding-top: 35px;
+	margin-left: 13px;
+	font-size: 14px;
+}
+.bottom .rectbox .tickmarkbox a{
+	margin-top: 75px;
+	display: inline-block;
+	 text-align: center;
+}
+
+.rightbottom2 ul li a .last{border-bottom: none;}
+

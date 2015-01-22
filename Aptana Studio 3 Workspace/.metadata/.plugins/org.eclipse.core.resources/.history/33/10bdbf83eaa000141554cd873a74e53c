@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+
+		<title>comcast2</title>
+		<link href="comcst2.css" rel="stylesheet" type="text/css" media="all"/>
+	</head>
+
+	<body>
+		<div class="bigbox">
+			<div class="topleft1">
+				
+				<div class="cash">
+					<p>Balance due by January 10, 2015</p>
+					<h1>$29.99</h1>
+				</div>
+				<div class="pay">
+					<button>Pay now</button>
+					<a href="#">Set up an automatic payments</a>
+				</div>
+				<div class="days">
+					<p>Your payment will be due in 17 days.</p>
+					<a href="#">View or print full bill<p>(pdf)</p></a>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+		
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+		
+		
+		
+	</body>
+</html>

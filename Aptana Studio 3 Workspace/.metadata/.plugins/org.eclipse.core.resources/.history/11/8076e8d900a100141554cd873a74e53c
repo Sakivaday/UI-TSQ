@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+
+		<title>comcast2</title>
+		<link href="comcst2.css" rel="stylesheet" type="text/css" media="all"/>
+	</head>
+
+	<body>
+		<div class="bigbox">
+			<div class="topleft1">
+				
+				<div class="cash">
+					<p>Balance due by January 10, 2015</p>
+					<h1>$29.99</h1>
+				</div>
+				<div class="pay">
+					<button>Pay now</button>
+					<a href="#">Set up an automatic payments</a>
+				</div>
+				<div class="days">
+					<ul><li>
+					<p>Your payment will be due in 17 days.
+					<a href="#">View or print full bill</a></p>
+				</li></ul>
+				</div>
+				</div>
+			
+			<div class="topleft2">
+				<div class="billdetails">
+					<h2>Bill details</h2>
+					<div class="questionmark"></div>
+					<p>for service from Dec.26 through Jan.25</p>
+				</div>
+			<div class="previousbalance">
+				<p id="pb">Previous Balance</p>
+				<p id="cc">$13.89</p>
+			</div>	
+			<div class="3boxes">
+				<ul>
+					<li>
+						<div class="questionmark"><p class="lft">Payments</p>
+						</div>
+						<p class="3cash">($13.89)</p>
+					</li>
+					<!--<li>
+						<div class="questionmark"><p class="lft">XFINITY Internet</p>
+						</div>
+						<p class="3cash">$29.99</p>
+					</li>
+					<li>
+						<div class="questionmark"><p class="lft">Other Charges and Credits</p>
+						</div>
+						<p class="3cash">$0.00</p>
+					</li>
+			   </ul>
+			</div>	
+			-->
+			</ul>
+			</div>
+			
+			
+			
+		</div>
+		
+		
+		
+	</body>
+</html>
