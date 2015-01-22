@@ -13,7 +13,6 @@
 }
 .topleft1{
 	width: 694px;
-	height: 140px;
 	background-color: white;
 	box-shadow: 2px 2px 2px #cacaca;
 	border-radius: 5px;
@@ -90,16 +89,15 @@ button{
 	border-radius: 5px;
 	margin-left: 20px;
 	margin-top: 40px;
-	display: inline-block;
 }
-.billdetails{
+.header{
     background-color: #F5F5F5;
 	border-bottom: 1px solid #989896;
 	height: 52px;
 	width: 695px;
 	border-radius: 5px 5px 0px 0px;	
 }
-.billdetails h2{
+.header h2{
 	margin-top: 13px;
 	margin-left: 20px;
 	float: left;
@@ -113,7 +111,7 @@ button{
 	margin-top: 21px;
 	margin-left: 10px;
 }
-.billdetails p{
+.header p{
 	margin-top: -14px;
 	margin-left: 328px;
 	float:left;
@@ -125,14 +123,14 @@ button{
 	height: 60px;
 	width: 695px;
 }
-#pb{
+.sb{
 	margin-left:20px;
 	margin-top: 21px;
 	font-weight:600;
 	float:left;
 	font-size: 12px;
 }
-#cc{
+.cc{
 	margin-left:520px;
 	margin-top: 21px;
 	font-weight:600;
@@ -176,14 +174,7 @@ button{
 	width: 695px;
 	background-color: #F5F5F5;
 }
-#sb{
-	margin-left:20px;
-	margin-top: 21px;
-	font-weight:600;
-	float:left;
-	font-size: 12px;
-}
-#p{
+.p{
 	margin-left: 603px;
 	margin-top: -21px;
 	float: left;
@@ -201,7 +192,7 @@ button{
 	background-position: -252px -300px;
 	float: left;
 	margin-top: 21px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 .lst .pd a{
 	float: left;
@@ -210,16 +201,16 @@ button{
 	font-size: 13px;
 	width: 140px;
 }
-.payments{
+.header1 {
     background-color: #F5F5F5;
 	border-bottom: 1px solid #989896;
 	height: 52px;
 	width: 695px;
 	border-radius: 5px 5px 0px 0px;	
-	margin-left:20px;
+	margin-left: 20px;
 	margin-top: 40px;
 }
-.payments h2{
+.header1 h2{
 	margin-top: 13px;
 	margin-left: 20px;
 	float: left;
@@ -246,20 +237,6 @@ button{
 	float: left;
 	font-size: 14px;
 }
-.balance{
-    background-color: #F5F5F5;
-	border-bottom: 1px solid #989896;
-	height: 52px;
-	width: 695px;
-	border-radius: 5px 5px 0px 0px;	
-	margin-left:20px;
-	margin-top: 40px;
-}
-.balance h2{
-	margin-top: 13px;
-	margin-left: 20px;
-	float: left;
-}
 .totalbalance{
 	border-bottom: 1px solid #989896;
 	height: 60px;
@@ -268,42 +245,16 @@ button{
 	border-radius: 0px 0px 5px 5px;
 	margin-left: 20px;
 }
-#tb{
-	margin-left:20px;
-	margin-top: 21px;
-	font-weight:600;
-	float:left;
-	font-size: 12px;
-}
-#dollar{
-	margin-left: 603px;
-	margin-top: -21px;
-	float: left;
-}
-.recentactivity{
-    background-color: #F5F5F5;
-	border-bottom: 1px solid #989896;
-	height: 52px;
-	width: 695px;
-	border-radius: 5px 5px 0px 0px;	
-	margin-left:20px;
-	margin-top: 40px;
-}
-.recentactivity h2{
-	margin-top: 13px;
-	margin-left: 20px;
-	float: left;
-}
 .rectbox2{
 	background-color: white;
-	height: 210px;
+	height: 65px;
 	width: 695px;
-	border-radius: 0px 0px 5px 5px;	
+	border-bottom: 2px solid #f5f5f5;
 	margin-left:20px;
 }
 .lft1{
 	float: left;
-	margin-top: 4px;
+	margin-top: 24px;
 	margin-left: 20px;
 	font-weight:600;
 	font-size: 12px;
@@ -313,7 +264,87 @@ button{
 	float: left;
 	margin-top: -12px;
 	margin-left: 636px;
+	font-size: 13px;
+	display:inline-block;
+	color: #898a91;
+}
+.rectbox2 .pd a{
+	float: left;
+	margin-left: 38px;
+	margin-top: 4px;
+	font-size: 13px;
+	width: 150px;
+}
+.viewmore{
+	margin-left: 20px;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #989896;
+	height: 52px;
+	width: 695px;
+	border-radius: 0px 0px 5px 5px;	
+}
+.viewmore p{
+	float: left;
+	margin-top: 20px;
+	margin-left: 295px;
 	font-weight:600;
 	font-size: 12px;
-	display:inline-block;
+}
+.downarrow{
+	background: url('pictures/sprite.png') no-repeat;
+	width:15px;
+	height:10px;	
+	background-position: -100px -600px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+.tick{
+	background: url('pictures/sprite.png') no-repeat;
+	width:22px;
+	height:23px;	
+	background-position: -100px -250px;
+	float: left;
+	margin-top: 21px;
+	margin-left: 20px;
+}
+.lftside{
+	float: left;
+	margin-top: 4px;
+	margin-left: 40px;
+	font-size: 12px;
+	width: 302px;
+	color: #989896;
+}
+.lastpaybox{
+	border-bottom: 2px solid #F5F5F5;
+	height: 65px;
+	width: 695px;
+	background-color: white;
+	margin-left: 20px;
+}
+.searchbar{
+	width:635px;
+	height: 65px;
+	background-color: #f3f3f2;
+	margin-left: 322px;
+	margin-top: 10px;
+	
+}
+.searchbar p{
+	margin-left: 28px;
+	margin-top: 28px;
+	width: 275px;
+	float: left;
+	font-size: 12px;
+	color: #989896;
+}
+.searchimg{
+	background: url('pictures/sprite.png') no-repeat;
+	width:42px;
+	height:41px;	
+	background-position: -99px -700px;
+	float: left;
+	margin-top: 19px;
+	margin-left: 260px;
 }
