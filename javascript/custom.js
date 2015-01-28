@@ -1,16 +1,30 @@
-function getUserInfo(){
+/*
+function getNumber(){
 	
-	var array = [10,20,46,70,2];
-	{
-	console.log(array.lenght);
-	}
-			var formCtrls = document.getElementsByClassName('form-control');
-			var inputVals = "";
-			for(i=0;i<formCtrls.length;i++){
-				 inputVals ="<p>" + (inputVals + formCtrls[i].value )+ "</p>";
-				
-			
+		var integernumber = document.getElementsByClassName('form-control');
+		for(i=0; i<integernumber.length; i++){
+				maxnum = Math.max(integernumber[i].value);
+				document.getElementById('result').innerHTML = maxnum;
 			}
-			document.getElementById('result').innerHTML = inputVals;
-			
+				
+console.log(integernumber);
 }
+*/
+//------------------------------------------------------------------------------------------------------------
+ 
+ var integernumber = document.getElementsByClassName('form-control');
+ function getNumber(){
+                // var integernumber = document.getElementsByClassName('form-control'); 
+                var maxnum = 0; 
+               
+                for (i = 0; i < integernumber.length; i++) {
+                	 var a = integernumber[i].value;
+                if (a > maxnum) {
+                 maxnum = a;
+    }
+}
+console.log(maxnum);
+}
+
+
+//-------------------------------------------------------------------------------------------------------------
