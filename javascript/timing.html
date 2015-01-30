@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>timing</title>
+  
+  
+  <script>
+  
+  function digitalclock() 
+  {
+  	var x = setInterval(time,1000);
+    }
+  function time(){
+  var date = new Date();
+  var hour = date.getHours(); 
+  var minute = date.getMinutes(); 
+  var second = date.getSeconds(); 
+  
+  document.getElementById('hour').innerHTML = hour;
+  document.getElementById('minute').innerHTML = minute;
+  document.getElementById('second').innerHTML = second;
+  }
+  </script>
+</head>
+
+<body onload = "digitalclock()">
+ 
+ <span id="hour"></span><span>:</span><span id="minute"></span><span>:</span><span id="second"></span>
+ 
+</body>
+</html>

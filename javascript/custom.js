@@ -19,7 +19,7 @@ console.log(integernumber);
                
                 for (i = 0; i < integernumber.length; i++) {
                 	 var a = integernumber[i].value;
-                if (a > maxnum) {
+                if (parseInt(a) > maxnum) {
                  maxnum = a;
     }
 }
