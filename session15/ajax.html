@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>ajax</title>
+		<meta name="description" content="">
+		<meta name="author" content="HCL">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link href="../Bootstrap/css/bootstrap.css" rel="stylesheet" media="all" type="text/css" />
+		<script src="../jquery/js/jquery.js"></script>
+		<script src="customs.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="well">
+				<form class="form-inline">
+					<div class="form-group">
+						<label class="sr-only" for="account">Account</label>
+						<input type="text" class="form-control" id="account" placeholder="Account Number">
+					</div>
+					
+					<select class="select">
+						<option>Account Number</option>
+						<option>First Name</option>
+						<option>Last Name</option>
+					</select>
+
+					<button type="submit" class="btn btn-default search">
+						Search
+					</button>
+					<button type="submit" class="btn btn-default show-all">
+						Show All
+					</button>
+				</form>
+			</div>
+			<div class="well">
+				<table class="table table-striped contacts">
+					<tr>
+						<th> SNO </th>
+						<th>FirstName</th>
+						<th>LastName</th>
+					</tr>
+					<tbody>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+	</body>
+</html>
