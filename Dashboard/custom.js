@@ -8,10 +8,7 @@ $(document).ready(function() {
 		$('.signin').click(function(e) {
 
 			if ($("#loginpage").valid()) {
-				alert('valid!');
-				return false;
-			} else {
-				alert('invalid!');
+
 				return false;
 			}
 		});
@@ -24,8 +21,9 @@ $(document).ready(function() {
 			success : function(result) {
 				$.each(result, function(key, value) {
 					if (($('#email').val() == value.Email) && ($('#password').val() == value.Password)) {
- 						 window.location='searchbox.html';
+						window.location = 'searchbox.html';
 					}
+
 				});
 			},
 			error : function() {

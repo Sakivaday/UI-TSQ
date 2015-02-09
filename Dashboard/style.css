@@ -57,10 +57,10 @@
 }
 .header p {
 	float: left;
-	margin-top: 16px;
-	margin-left: 20px;
-	margin-right: 30px;
+	margin-top: 14px;
+	margin-left: 30px;
 	color: #544b37;
+	font-size: 18px;
 }
 .right {
 	float: left;
@@ -72,8 +72,10 @@ ul {
 ul li {
 	display: inline-block;
 	position: relative;
-	padding: 15px 20px;
+	padding: 15px 15px;
 	cursor: pointer;
+	font-size: 17px;
+	color: #544b37;
 }
 ul li:hover {
 	background: #555;
@@ -103,14 +105,41 @@ ul li:hover ul {
 	opacity: 1;
 	visibility: visible;
 }
-.box2{
-width: 94%;
+.box2 {
+	width: 94%;
 	height: 400px;
 	background-color: #f7fbfe;
-	margin-left: 40px;	
+	margin-left: 40px;
 }
-.search{
-	width: 25%;
-	margin-left: 40px;	
-
+.searchbox {
+	width: 86%;
+	margin-left: 50px;
+	margin-top: 160px;
+	position: absolute;
+	height: 60px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
+.accountnumber {
+	float: left;
+	margin-top: 14px;
+	margin-left: 30px;
+}
+#account {
+	width: 200%;
+	padding-left: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 4px;
+}
+.searchbtn {
+	float: left;
+	margin-top: 13px;
+	background-color: #006ccc;
+	color: white;
+	height: 32px;
+	width: 70px;
+	border-radius: 8px;
+	margin-left: 200px;
+	font-size: 13px;
 }
