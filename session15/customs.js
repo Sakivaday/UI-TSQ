@@ -5,7 +5,8 @@ $(document).ready(function() {
 			url : 'data/data.json',
 			success : function(result) {
 				$.each(result, function(key, value) {
-					var tr = "<tr><td>" + (key + 1) + "</td><td>" + value.FirstName + "</td><td>" + value.LastName + "</td></tr>"
+					var tr = "<tr><td>" + (key + 1) + "</td><td>" + value.FirstName + "</td><td>" +
+					 value.LastName + "</td><td>" +value.Account+"</td><td>"+value.Relationship+"</td></tr>"
 					$('.contacts tbody').append(tr);
 				});
 			},
@@ -21,7 +22,8 @@ $(document).ready(function() {
 			success : function(result) {
 				$.each(result, function(key, value) {
 					if ($('#account').val() == value.Account) {
-					var tr = "<tr><td>" + (key + 1) + "</td><td>" + value.FirstName + "</td><td>" + value.LastName + "</td></tr>"
+					var tr = "<tr><td>" + (key + 1) + "</td><td>" + value.FirstName + "</td><td>" + value.LastName +
+					 "</td><td>" + value.Account +"</td><td>" +value.Relationship+ "</td></tr>"
 					$('.contacts tbody').append(tr);
 				} });
 			},

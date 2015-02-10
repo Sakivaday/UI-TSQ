@@ -107,7 +107,6 @@ ul li:hover ul {
 }
 .box2 {
 	width: 94%;
-	height: 400px;
 	background-color: #f7fbfe;
 	margin-left: 40px;
 }
@@ -140,6 +139,40 @@ ul li:hover ul {
 	height: 32px;
 	width: 70px;
 	border-radius: 8px;
-	margin-left: 200px;
+	margin-left: 40px;
 	font-size: 13px;
+}
+.select {
+	margin-left: 190px;
+	margin-top: 22px;
+	float: left;
+}
+.details table {
+	margin-top: 100px;
+}
+th {
+	padding-right: 230px;
+}
+.typebox{
+	position:absolute;
+	margin-top: 450px;
+}
+.typebox h1{
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.rectbox{
+	background-color: #f7fbfe;
+	height: 65px;
+	width: 450px;
+	border: 1px solid #cfcfcf;
+	
+}
+.lft{
+	float: left;
+	margin-top: 24px;
+	margin-left: 20px;
+	font-weight:600;
+	font-size: 12px;
+	width: 160px;
 }
