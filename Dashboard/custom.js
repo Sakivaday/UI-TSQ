@@ -42,11 +42,14 @@ $(document).ready(function() {
 
 	$('.searchbtn').click(function(event) {
 		event.preventDefault();
+		
+		var searchfor = $('#searchfor').val();
 		$.ajax({
-			url : 'data/data.json',
+			url : 'data/updated-data.json',
 			success : function(result) {
 				$.each(result, function(key, value) {
-					if ($('#account').val() == value.Account) {
+					
+					if (searchfor == value.Account) {
 						var tr = "<tr><td>" + value.FirstName + "</td><td>" + value.LastName + "</td><td>" + value.Account + "</td><td>" + value.Relationship + "</td></tr>"
 						$('.contact tbody').append(tr);
 					}
