@@ -18,7 +18,7 @@
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		<!--  <link href="../Bootstrap/css/bootstrap.css" rel="stylesheet" media="all" type="text/css" />  -->
 		<link href="style.css" rel="stylesheet" type="text/css" media="all"/>
-		<script src="../jquery/js/jquery.js"></script>
+		<script src="../Dashboard/js/jquery.js"></script>
 		<script src="custom.js"></script>
 		<script src="../Dashboard/jquery-validation-1.13.1/dist/jquery.validate.js"></script>
 
@@ -72,52 +72,60 @@
 					<button type="submit" class="searchbtn">
 						Search
 					</button>
-				
-<div class="details">
-				<table class="contact">
-					<tr>
-						<th>FirstName</th>
-						<th>LastName</th>
-						<th>Account</th>
-						<th>Relationship</th>
-					</tr>
-					<tbody>
 
-					</tbody>
-				</table>
-			</div>
-			</div>
-			<div class="typebox">
-				<h1>Select Type of Id</h1>
-				<div class="rectbox">
-				<ul>
-					<li>
-						<p class="lft">Driving License</p>
-						
-					</li></ul></div>
-		<div class="rectbox">	    <ul>
-					<li>
-						<p class="lft">Last 4 SSN</p>
-						
-					</li></ul></div>
-		<div class="rectbox">	   <ul>
-					<li>
-						<p class="lft">Billing Address</p>
-						
-					</li></ul></div>
-		<div class="rectbox">	   <ul>
-					<li>
-						<p class="lft">State Id</p>
-						
-					</li></ul>
+					<div class="details">
+						<table class="contact">
+							<tr>
+								<th>FirstName</th>
+								<th>LastName</th>
+								<th>Account</th>
+								<th>Relationship</th>
+							</tr>
+							<tbody>
+
+							</tbody>
+						</table>
 					</div>
-				
-				
-			</div>
-			
-			
-			
-			</div>
+				</div>
+				<div class="typebox">
+					<h1>Select Type of ID</h1>
+					<ul class='tabs'>
+						<li>
+							<a href='#tab1'>Driving License</a>
+						</li>
+						<li>
+							<a href='#tab2'>Last 4 SSN</a>
+						</li>
+						<li>
+							<a href='#tab3'>Billing Address</a>
+						</li>
+						<li>
+							<a href='#tab4'>State Id</a>
+						</li>
+					</ul>
+					<div id='tab1'>
+						<input type="text" class="y" placeholder="Driving License">
+					</div>
+					<div id='tab2'>
+						<input type="text" class="y" placeholder="Last 4 SSN">
+					</div>
+					<div id='tab3'>
+						<input type="text" class="y" placeholder="Billing Address">
+					</div>
+					<div id='tab4'>
+						<input type="text" class="y" placeholder="State Id">
+					</div>
+
+					<div class="z">
+						<button type="submit" class="cancel">
+							Cancel
+						</button>
+
+						<button type="submit" class="verify">
+							Verify
+						</button>
+					</div>
+				</div>
 
 	</body>
 </html>

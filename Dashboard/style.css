@@ -134,7 +134,7 @@ ul li:hover ul {
 .searchbtn {
 	float: left;
 	margin-top: 13px;
-	background-color: #006ccc;
+	background-color: #488bca;
 	color: white;
 	height: 32px;
 	width: 70px;
@@ -153,26 +153,57 @@ ul li:hover ul {
 th {
 	padding-right: 230px;
 }
-.typebox{
-	position:absolute;
+.typebox {
+	position: absolute;
 	margin-top: 450px;
 }
-.typebox h1{
+.typebox h1 {
 	margin-left: 20px;
 	padding-bottom: 10px;
 }
-.rectbox{
-	background-color: #f7fbfe;
-	height: 65px;
-	width: 450px;
-	border: 1px solid #cfcfcf;
-	
+.tabs {
+	margin-left: 10px;
+	display: -moz-groupbox;
+	margin-left: 10px;
+	border-radius: 5px;
+	width: 400px;
+	border: 1px solid #cacaca;
 }
-.lft{
-	float: left;
-	margin-top: 24px;
-	margin-left: 20px;
-	font-weight:600;
-	font-size: 12px;
-	width: 160px;
+.tabs :hover {
+	background: #488bca;
+	color: white;
 }
+ul li a {
+	color: black;
+	font-size: 14px;
+}
+.y {
+	float: right;
+	font-size: 17px;
+	margin-right: -230px;
+	margin-top: -197px;
+	padding: 10px;
+}
+.cancel {
+	height: 34px;
+	width: 70px;
+	border-radius: 5px;
+	font-size: 14px;
+	border: 1px solid #cacaca;
+	background-color: white;
+}
+.verify {
+	background-color: #428bca;
+	color: white;
+	height: 37px;
+	width: 65px;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.z {
+	float: right;
+	margin-right: -650px;
+	padding: 10px;
+}
+
