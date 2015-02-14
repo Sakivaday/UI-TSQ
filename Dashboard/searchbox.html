@@ -60,72 +60,74 @@
 
 				<div class="searchbox">
 					<div class="accountnumber">
-
+						<label for="searchfor"></label>
 						<input type="text" id="searchfor" placeholder="Searching for..">
 					</div>
 					<select class="select">
 						<option>Account Number</option>
 						<option>First Name</option>
 						<option>Last Name</option>
-						<option>Email</option>
 					</select>
 					<button type="submit" class="searchbtn">
 						Search
 					</button>
 
-					<div class="details">
+					<div id="details">
 						<table class="contact">
-							<tr>
-								<th>FirstName</th>
-								<th>LastName</th>
-								<th>Account</th>
-								<th>Relationship</th>
-							</tr>
+							<thead>
+								<tr>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Account</th>
+									<th>Relationship</th>
+								</tr>
+							</thead>
 							<tbody>
 
 							</tbody>
 						</table>
 					</div>
 				</div>
-				<div class="typebox">
-					<h1>Select Type of ID</h1>
-					<ul class='tabs'>
-						<li class="q">
-							<a href='#tab1'>Driving License</a>
-						</li>
-						<li class="q">
-							<a href='#tab2'>Last 4 SSN</a>
-						</li>
-						<li class="q">
-							<a href='#tab3'>Billing Address</a>
-						</li>
-						<li class="q">
-							<a href='#tab4'>State Id</a>
-						</li>
-					</ul>
-					<div id='tab1'>
-						<input type="text" class="y" placeholder="Driving License">
-					</div>
-					<div id='tab2'>
-						<input type="text" class="y" placeholder="Last 4 SSN">
-					</div>
-					<div id='tab3'>
-						<input type="text" class="y" placeholder="Billing Address">
-					</div>
-					<div id='tab4'>
-						<input type="text" class="y" placeholder="State Id">
-					</div>
-
-					<div class="z">
-						<button type="submit" class="cancel">
-							Cancel
-						</button>
-
-						<button type="submit" class="verify">
-							Verify
-						</button>
-					</div>
+			</div>
+			<div class="typebox">
+				<h1>Select Type of ID</h1>
+				<ul class='tabs'>
+					<li class="q">
+						<a href='#tab1'>Driving License</a>
+					</li>
+					<li class="q">
+						<a href='#tab2'>Last 4 SSN</a>
+					</li>
+					<li class="q">
+						<a href='#tab3'>Billing Address</a>
+					</li>
+					<li class="q">
+						<a href='#tab4'>State Id</a>
+					</li>
+				</ul>
+				<div id='tab1'>
+					<input type="text" class="sb" placeholder="Driving License">
 				</div>
+				<div id='tab2'>
+					<input type="text" class="sb" placeholder="Last 4 SSN">
+				</div>
+				<div id='tab3'>
+					<input type="text" class="sb" placeholder="Billing Address">
+				</div>
+				<div id='tab4'>
+					<input type="text" class="sb" placeholder="State Id">
+				</div>
+
+				<div class="cv">
+					<button type="submit" class="cancel">
+						Cancel
+					</button>
+
+					<button type="submit" class="verify">
+						Verify
+					</button>
+				</div>
+			</div>
 
 	</body>
 </html>

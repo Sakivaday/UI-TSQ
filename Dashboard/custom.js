@@ -40,20 +40,37 @@ $(document).ready(function() {
 		});
 	});
 
+	$('#details').hide();
 	$('.searchbtn').click(function(event) {
 		event.preventDefault();
-		
+		$('#details').show();
+		$('.contact tbody').empty();
+
+		var selected = $('.select').val();
 		var searchfor = $('#searchfor').val();
+
+		console.log(selected);
+
 		$.ajax({
 			url : 'data/updated-data.json',
 			success : function(result) {
 				$.each(result, function(key, value) {
-					
-					if (searchfor == value.Account) {
-						var tr = "<tr><td>" + value.FirstName + "</td><td>" + value.LastName + "</td><td>" + value.Account + "</td><td>" + value.Relationship + "</td></tr>"
-						$('.contact tbody').append(tr);
+					if (selected == 'Account Number') {
+						if (searchfor == value.Account) {
+							var tr = "<tr><td>" + value.FirstName + "</td><td>" + value.LastName + "</td><td>" + value.Account + "</td><td>" + value.Relationship + "</td></tr>"
+							$('.contact tbody').append(tr);
+						}
+					} else if (selected == 'First Name') {
+						if (searchfor == value.FirstName) {
+							var tr = "<tr><td>" + value.FirstName + "</td><td>" + value.LastName + "</td><td>" + value.Account + "</td><td>" + value.Relationship + "</td></tr>"
+							$('.contact tbody').append(tr);
+						}
+					} else if (selected == 'Last Name') {
+						if (searchfor == value.LastName) {
+							var tr = "<tr><td>" + value.FirstName + "</td><td>" + value.LastName + "</td><td>" + value.Account + "</td><td>" + value.Relationship + "</td></tr>"
+							$('.contact tbody').append(tr);
+						}
 					}
-
 				});
 			},
 			error : function() {
@@ -61,6 +78,19 @@ $(document).ready(function() {
 			}
 		});
 	});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	$('ul.tabs').each(function() {
 

@@ -113,7 +113,7 @@ ul li:hover ul {
 .searchbox {
 	width: 86%;
 	margin-left: 50px;
-	margin-top: 160px;
+	margin-top: 155px;
 	position: absolute;
 	height: 60px;
 	background-color: #f5f5f5;
@@ -147,18 +147,22 @@ ul li:hover ul {
 	margin-top: 22px;
 	float: left;
 }
-.details table {
-	margin-top: 100px;
+#details table {
+	margin-top: 75px;
+	width: 110%;
 }
 th {
-	padding-right: 230px;
+	padding-right: 232px;
+	border-bottom: 1px solid #cacaca;
+	padding-bottom: 5px;
 }
 .typebox {
 	position: absolute;
-	margin-top: 450px;
+	margin-top: 350px;
+	margin-left: 80px;
 }
 .typebox h1 {
-	margin-left: 20px;
+	margin-left: 15px;
 	padding-bottom: 10px;
 }
 .tabs {
@@ -166,22 +170,26 @@ th {
 	display: block;
 	margin-left: 10px;
 	border-radius: 5px;
-	width: 350px;
+	width: 475px;
 	border: 1px solid #cacaca;
 }
 .tabs :hover {
 	background: #488bca;
 	color: white;
-	width:91.5%;
+	width: 93.75%;
 }
-.q{
-	width: 320px;
+.q {
+	width: 445px;
+	border-bottom: 1px solid #cacaca;
+}
+.q:last-child{
+	border-bottom: none;
 }
 ul li a {
 	color: black;
 	font-size: 14px;
 }
-.y {
+.sb {
 	float: right;
 	font-size: 17px;
 	margin-right: -275px;
@@ -206,9 +214,9 @@ ul li a {
 	font-size: 14px;
 	margin-top: 20px;
 }
-.z {
+.cv {
 	float: right;
-	margin-right: -650px;
+	margin-right: -580px;
 	padding: 10px;
 }
 
