@@ -79,19 +79,6 @@ $(document).ready(function() {
 		});
 	});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 	$('ul.tabs').each(function() {
 
 		var $active,
@@ -119,6 +106,28 @@ $(document).ready(function() {
 			$content.show();
 
 			e.preventDefault();
+		});
+	});
+
+	$('.verify').click(function(event) {
+		event.preventDefault();
+
+		var sel = $('.sb').val();
+
+		$.ajax({
+			url : 'data/updated-data.json',
+			success : function(result) {
+				$.each(result, function(key, value) {
+
+					if (sel == value.DrivingLicense) {
+						window.location = 'http://localhost/UI-TSQ/Bootstrap/bootstrap1.html';
+					}
+
+				});
+			},
+			error : function() {
+				alert("error");
+			}
 		});
 	});
 

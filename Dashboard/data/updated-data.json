@@ -10,10 +10,10 @@
 		"ThumbURL": "thumb.jpg",
 		"Account": "013841836-999-967",
 		"Relationship": "Book",
-		"Driving License": "8765654",
-		"Last 4 SSN": "9087",
-		"Billing Address": "Clemson",
-		"State Id": "SC"
+		"DrivingLicense": "8765654",
+		"Last4SSN": "9087",
+		"BillingAddress": "Clemson",
+		"StateId": "SC"
 	}, {
 		"FirstName": "Dillon",
 		"LastName": "Casey",
@@ -25,10 +25,10 @@
 		"ThumbURL": "thumb.jpg",
 		"Account": "611448447-305-187",
 		"Relationship": "Book",
-		"Driving License": "9765855",
-		"Last 4 SSN": "2380",
-		"Billing Address": "Dallas",
-		"State Id": "TX"
+		"DrivingLicense": "9765855",
+		"Last4SSN": "2380",
+		"BillingAddress": "Dallas",
+		"StateId": "TX"
 	}, {
 		"FirstName": "Portia",
 		"LastName": "Fletcher",
@@ -40,9 +40,9 @@
 		"ThumbURL": "thumb.jpg",
 		"Account": "146529671-444-127",
 		"Relationship": "Book",
-		"Driving License": "7735154",
-		"Last 4 SSN": "5510",
-		"Billing Address": "Irving",
-		"State Id": "TX"
+		"DrivingLicense": "7735154",
+		"Last4SSN": "5510",
+		"BillingAddress": "Irving",
+		"StateId": "TX"
 	}
 	]

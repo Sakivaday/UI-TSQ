@@ -158,7 +158,6 @@ th {
 }
 .typebox {
 	position: absolute;
-	margin-top: 350px;
 	margin-left: 80px;
 }
 .typebox h1 {
@@ -182,7 +181,7 @@ th {
 	width: 445px;
 	border-bottom: 1px solid #cacaca;
 }
-.q:last-child{
+.q:last-child {
 	border-bottom: none;
 }
 ul li a {
@@ -219,4 +218,13 @@ ul li a {
 	margin-right: -580px;
 	padding: 10px;
 }
-
+.verification {
+	height: 350px;
+	margin-top: 350px;
+}
+.contact tbody {
+	color: #428bca;
+}
+.contact tbody:hover {
+	cursor: pointer;
+}
