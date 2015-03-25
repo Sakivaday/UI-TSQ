@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="demoApp">
+	<head>
+
+		<title>first</title>
+
+		
+		<link href="../bootstrap/css/bootstrap.css" rel="stylesheet" media="all" type="text/css" />
+		<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+		
+		
+		<script src="../jquery/js/jquery.js"></script>
+		
+	</head>
+
+	<body>
+		<div data-ng-controller = "SimpleController">
+			Name:
+			<br />
+			<input type="text" data-ng-model="name" />
+			<br />
+			<ul>
+				<li data-ng-repeat="cust in customers | filter:name | orderBy:'city'">
+					{{ cust.name | uppercase }} - {{ cust.city | lowercase}}
+				</li>
+			</ul>
+		</div>
+		<script>
+function SimpleController($scope,$http) {
+  $http.get("http://www.w3schools.com/website/Customers_JSON.php")
+  .success(function(response) {$scope.names = response;});
+}
+</script>
+	</body>
+</html>

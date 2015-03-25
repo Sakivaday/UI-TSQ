@@ -12,8 +12,10 @@
 	margin-left: 800px;
 	margin-top: -5px;
 }
-.pic {
+.pic, .pic-alert-noti, .pic-im, .pic-search, .pic-like, .pic-love  {
 	background: url('pictures/icons.png') no-repeat;
+}	
+.pic{
 	width: 9px;
 	height: 10px;
 	background-position: -315px -75px;
@@ -21,7 +23,6 @@
 	float: left;
 }
 .pic-search{
-	background: url('pictures/icons.png') no-repeat;
 	width: 13px;
 	height: 14px;
 	background-position: -49px -1px;
@@ -49,15 +50,13 @@
 	margin-left: 15px;
 }
 .pic-alert-noti{
-	background: url('pictures/icons.png') no-repeat;
 	width: 12px;
 	height: 13px;
 	background-position: -73px -145px;
 	margin-left: -20px;
 	float: left;
 }
-.im {
-	background: url('pictures/icons.png') no-repeat;
+.pic-im {
 	width: 11px;
 	height: 13px;
 	background-position: -50px -49px;
@@ -65,7 +64,7 @@
 	float: left;
 	margin-left: 15px;
 }
-.im p {
+.pic-im p {
 	margin-left: 22px;
 	margin-top: -3px;
 	width: 105px;
@@ -192,7 +191,6 @@ blockquote b, .blockquote-reverse {
 	padding-left: 10px;
 }
 .pic-like{
-	background: url('pictures/icons.png') no-repeat;
 	width: 12px;
 	height: 12px;
 	background-position: -97px -145px;
@@ -200,7 +198,6 @@ blockquote b, .blockquote-reverse {
 	
 }
 .pic-love{
-	background: url('pictures/icons.png') no-repeat;
 	width: 13px;
 	height: 12px;
 	background-position: -96px -2px;
@@ -227,8 +224,10 @@ blockquote b, .blockquote-reverse {
 .panel-primary {
     margin-top: 45px;
 }
-.pic-profile1 {
+.pic-profile1, .pic-profile2 {
 	background: url('pictures/sprite.png') no-repeat;
+}
+.pic-profile1{
 	width: 44px;
 	height: 44px;
 	background-position: -63px -1296px;
@@ -240,7 +239,6 @@ blockquote footer:before, blockquote small:before, blockquote .small:before {
     margin-left: 50px;
 }
 .pic-profile2 {
-	background: url('pictures/sprite.png') no-repeat;
 	width: 32px;
 	height: 35px;
 	background-position: -99px -1150px;

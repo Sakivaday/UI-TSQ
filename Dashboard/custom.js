@@ -79,6 +79,14 @@ $(document).ready(function() {
 		});
 	});
 
+	$('.verification').hide();
+	$('tbody').click(function() {
+
+		console.log('1');
+		$('.verification').show();
+
+	});
+
 	$('ul.tabs').each(function() {
 
 		var $active,
@@ -120,6 +128,12 @@ $(document).ready(function() {
 				$.each(result, function(key, value) {
 
 					if (sel == value.DrivingLicense) {
+						window.location = 'http://localhost/UI-TSQ/Bootstrap/bootstrap1.html';
+					} else if (sel == value.Last4SSN) {
+						window.location = 'http://localhost/UI-TSQ/Bootstrap/bootstrap1.html';
+					}else if (sel == value.BillingAddress) {
+						window.location = 'http://localhost/UI-TSQ/Bootstrap/bootstrap1.html';
+					} else if (sel == value.StateId) {
 						window.location = 'http://localhost/UI-TSQ/Bootstrap/bootstrap1.html';
 					}
 

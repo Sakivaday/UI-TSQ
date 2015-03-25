@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>order</title>
+		<meta name="description" content="">
+		<meta name="author" content="vikas">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+		<link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+		<script src="../js/jquery.js"></script>
+
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="../jquery-validation-1.13.1/dist/jquery.validate.js"></script>
+		<script src="custom.js"></script>
+
+	</head>
+
+	<body>
+		<form id = "loginpage">
+			<div class="background">
+				<div class="pizza">
+					<img src="../images/pizza_delivery_boy.jpg" style="width:450px;height:264px">
+					<h1>PIZZA</h1>
+					<h4>REAL ITALIAN PIZZA</h4>
+				</div>
+
+				<div>
+					<button type="button" class="bar">
+						Home
+					</button>
+
+					<button type="button" class="bar">
+						Menu
+					</button>
+
+					<button type="button" class="bar">
+						Gallery
+					</button>
+
+					<button type="button" class="bar">
+						Contacts
+					</button>
+
+				</div>
+				<div class="bottompizza">
+
+					<div class="rectbox">
+						<div id="Form">
+							<p>
+								First Name
+							</p>
+							<div>
+								<label for="searchfor"></label>
+								<input type="text" class="firstname" id="name" placeholder="Enter First Name" min="1" max="20" maxlength="25" required>
+							</div>
+							<p>
+								Last Name
+							</p>
+							<div>
+								<label for="searchfor"></label>
+								<input type="text" class="firstname" id="lastname" placeholder="Enter Last Name" maxlength="25" required>
+							</div>
+							<p>
+								Delivery Address
+							</p>
+							<div>
+								<label for="searchfor"></label>
+								<input type="text" class="firstname" id="address" placeholder="Address" required>
+							</div>
+						
+						<p>
+							Phone Number
+						</p>
+						<div>
+							<label for="searchfor"></label>
+							<input type="number" class="firstname" maxlength="10" placeholder="Phone Number">
+						</div>
+
+						<p>
+							Sales Type
+						</p>
+						<div class="cashcredit">
+							<label class="radio-inline">
+								<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+								Cash </label>
+							<label class="radio-inline">
+								<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+								Credit </label>
+						</div>
+
+						<div class="type">
+							Credit Card Type
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+									AX </label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									V </label>
+							</div>
+						</div>
+
+						<p id="ccn">
+							Credit Card Number
+						</p>
+						
+						<div class="cardnmbr1">
+							<label for="searchfor"></label>
+							<input type="number" class="nmbr1" id="n1" placeholder="XXXX" maxlength="4" min="1000" max="9999" required>
+
+							<p id="dash1">
+								-
+							</p>
+
+							<label for="searchfor"></label>
+							<input type="number" class="nmbr2" placeholder="XXXXXX" maxlength="6" min="100000" max="999999" required>
+							<p id="dash2">
+								-
+							</p>
+							<label for="searchfor"></label>
+							<input type="number" class="nmbr3" placeholder="XXXXX" maxlength="5" min="10000" max="99999" required>
+						</div>
+
+						<div class="cardnmbr2">
+							<label for="searchfor"></label>
+							<input type="number" class="vnmbr1" placeholder="XXXX" maxlength="4" required>
+
+							<p id="vdash1">
+								-
+							</p>
+
+							<label for="searchfor"></label>
+							<input type="number" class="vnmbr2" placeholder="XXXX" maxlength="4" required>
+							<p id="vdash2">
+								-
+							</p>
+							<label for="searchfor"></label>
+							<input type="number" class="vnmbr3" placeholder="XXXX" maxlength="4" required>
+							<p id="vdash3">
+								-
+							</p>
+							<label for="searchfor"></label>
+							<input type="number" class="vnmbr4" placeholder="XXXX" maxlength="4" required>
+						</div>
+
+						<div class="date">
+							<p>
+								Credit Card Expiration Date
+								<input type="text" id="datepicker" class="expdate" placeholder="MM/DD/YYYY" required>
+							</p>
+						</div>
+						</div>
+
+						<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+						<button type="button"  class="btn btn-default">
+							Checkout
+						</button> </a>
+
+						<div id="light" class="white_content">
+							Your Order Number is : <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+						</div>
+						<div id="fade" class="black_overlay"></div>
+
+						<div id="errors"></div>
+
+					</div>
+
+					<div class="receipt">
+						<p>
+							Your Order Number is
+						</p>
+					</div>
+					<div class="receiptnmbr"></div>
+					<div class="thankyou">
+						Your Order will be delivered in 30 minutes!!
+						<p>
+							Thank You.
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

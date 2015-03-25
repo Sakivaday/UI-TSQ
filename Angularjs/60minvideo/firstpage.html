@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+<head>
+  
+  <title>firstpage</title>
+  
+</head>
+
+<body data-ng-init="names=['Vikas Yadav', 'Chirag Dua', 'Sarthak Gupta', 'Amit Arora']">
+  
+  Name:
+  <br />
+  <input type="text" data-ng-model="name" /> {{ name }}
+  <br />
+  <ul>
+  	<li data-ng-repeat="personName in names">{{ personName }}</li>
+  </ul>
+  
+  
+ 
+  <script src="../minjs/angular.min.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TODO supply a title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">
+			var bottomPosition = 300;
+			var leftPosition = 0;
+			var direction = 1;
+			var updown = 1;
+			function flyPlane() {
+				var airplane = document.getElementById("airplane");
+
+				airplane.style.left = leftPosition + "px";
+				airplane.style.bottom = bottomPosition + "px";
+				airplane.style.visibility = "visible";
+
+				if (direction == 1) {
+					airplane.style.transform = "rotateY(0deg)";
+					leftPosition += 10;
+					if (leftPosition >= window.innerWidth - 150) {
+						direction = 0;
+					}
+				} else if (direction == 0) {
+					airplane.style.transform = "rotateY(180deg)";
+					leftPosition -= 10;
+					if (leftPosition <= 0) {
+						direction = 1;
+					}
+				}
+			if (updown == 1){
+				bottomPosition += 10;
+				updown = 0;
+			} else if (updown == 0){
+				bottomPosition -= 10; 
+				updown = 1;
+			}
+
+			}
+		</script>
+	</head>
+	<body onload="setInterval('flyPlane()', 150);">
+		<p>
+			<marquee behavior="alternate">
+				<img src="airplane.gif" id="airplane" style="position: absolute;
+				left: -100px; bottom: 0px;
+				visibility: hidden"
+				alt="Image of a airplane" />
+
+			</marquee>
+		</p>
+	</body>
+</html>
